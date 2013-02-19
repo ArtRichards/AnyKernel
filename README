@@ -1,0 +1,10 @@
+koush's anykernel modified by invisiblek for d2 devices
+
+place your zImage in kernel/
+place your modules in modules/
+
+zip all the things
+
+flash via recovery
+
+profit
