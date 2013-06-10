@@ -1,4 +1,4 @@
-koush's anykernel modified by invisiblek for d2 devices
+koush's anykernel modified by invisiblek for ouya_1_1
 
 place your zImage in kernel/
 place your modules in modules/

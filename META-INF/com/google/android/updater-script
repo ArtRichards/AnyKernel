@@ -1,8 +1,8 @@
-assert(getprop("ro.product.device") == "d2vzw" || getprop("ro.build.product") == "d2vzw" || getprop("ro.product.device") == "d2tmo" || getprop("ro.build.product") == "d2tmo" || getprop("ro.product.device") == "d2spr" || getprop("ro.build.product") == "d2spr" || getprop("ro.product.device") == "d2att" || getprop("ro.build.product") == "d2att" || getprop("ro.product.device") == "d2mtr" || getprop("ro.build.product") == "d2mtr" || getprop("ro.product.device") == "d2usc" || getprop("ro.build.product") == "d2usc");
+assert(getprop("ro.product.device") == "ouya_1_1" || getprop("ro.build.product") == "ouya_1_1");
 ui_print("AnyKernel Updater by Koush.");
-ui_print("Updated and modified for d2 by invisiblek.");
+ui_print("Updated and modified for ouya_1_1 by invisiblek.");
 ui_print("Extracting System Files...");
-mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
+mount("ext4", "EMMC", "/dev/block/platform/sdhci-tegra.3/by-name/APP", "/system");
 package_extract_dir("modules", "/system/lib/modules/");
 set_progress(1.000000);
 ui_print("Extracting Kernel files...");
